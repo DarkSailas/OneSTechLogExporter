@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildThisFileDirectory)=/_</PathMap>
+    <!-- Выносим директории bin и obj за пределы Google Диска для исключения блокировок файлов testhost.exe и apphost.exe -->
+    <BaseIntermediateOutputPath>$(LOCALAPPDATA)\Temp\OneSTechLogExporterBuild\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(LOCALAPPDATA)\Temp\OneSTechLogExporterBuild\bin\$(MSBuildProjectName)\</BaseOutputPath>
+    <!-- Отключение мусорных сателлитных папок локализации (cs, de, es, fr, ru, etc.) -->
+    <SatelliteResourceLanguages>none</SatelliteResourceLanguages>
+    <NoWarn>$(NoWarn);NU1900;NU1901;NU1902;NU1903;NU1904;CS1591;CS8600;CS8601;CS8602;CS8603;CS8604;CS8618;CS8625;CS8632;CS1998</NoWarn>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,22 @@
+## Build and Publish outputs
+bin/
+obj/
+publish/
+dumps/
+logs/
+state.json
+*.tmp
+*.log
+
+## User-specific files and IDEs
+.vs/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+
+## OS generated files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
