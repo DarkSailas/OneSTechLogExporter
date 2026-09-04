@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OneSTechLogExporter.Core/OneSTechLogExporter.Core.csproj" />
+    <Project Path="src/OneSTechLogExporter.Gui/OneSTechLogExporter.Gui.csproj" />
+    <Project Path="src/OneSTechLogExporter.Service/OneSTechLogExporter.Service.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OneSTechLogExporter.Tests/OneSTechLogExporter.Tests.csproj" />
+  </Folder>
+</Solution>
